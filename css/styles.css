@@ -13,6 +13,8 @@
 	--white: #ffffff;
 	--dairy: #fcfcfc;
 }
+
+
 /* Body */
 body {
 background-color: var(--white);
@@ -22,18 +24,17 @@ text-decoration: none;
 text-transform: none;
 }
 
+
 /* Reset */
 .list{
 list-style: none;
 }
-
 .link{
 text-decoration: none;
 }
+
+
 /* Header */
-
-/* logo */
-
 .logo {
 font-family: 'Raleway',sans-serif;
 font-weight: 800;
@@ -55,7 +56,6 @@ color: var(--navy-blue);
 }
 
 
-
 /* Site-nav */
 .site-nav {
 font-weight: 500;
@@ -69,6 +69,7 @@ font-style: normal;
 .link .items{
 color:var(--navy-blue-modal);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
 color: var(--ocean);
@@ -78,13 +79,14 @@ color: var(--ocean);
 color: var(--ocean);
 }
    
-/* Header-nav */
 
+/* Header-nav */
 .header-nav{
  font-style: normal;
 }
-/* Auth-nav */
 
+
+/* Auth-nav */
 .auth-nav .link {
 font-weight: 500;
 font-size: 16px;
@@ -94,14 +96,13 @@ color: var(--slate);
 text-decoration: none;
 }
 
-
 .auth-nav .link:hover,
 .auth-nav .link:focus{
 color: var(--ocean);
 }
 
-/* Hero section*/
 
+/* Hero section*/
 .hero-section{
 background-color: var(--navy-blue-modal);
 }
@@ -120,8 +121,8 @@ color: var(--white);
 white-space: pre;
 }
 
-/* Booton */
 
+/* Booton */
 .button {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -141,8 +142,8 @@ background-color: var(--ocean);
 color: #ffffff;
 }
 
-/* About section */
 
+/* About section */
 .page-section .title{
 font-weight: 500;
 font-size: 20px;
@@ -165,7 +166,6 @@ color: var(--slate);
 
 
 /* What are we doing */
-
 .content-section .title {
 font-weight: 700;
 font-size: 36px;
@@ -177,11 +177,11 @@ color: var(--navy-blue);
 } 
 
 .content-section {
-background-color:var(--white);}
+background-color:var(--white);
+}
+
 
 /* Team section */
-
-
 .features-section{
 background-color:var(--cloud) ;
 }
@@ -200,7 +200,6 @@ text-transform: capitalize;
 color: var(--navy-blue);
 }
 
-
 .features-section .title{
 background-color:var(--white);
 font-weight: 500;
@@ -217,8 +216,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-/* Footer */
 
+/* Footer */
 .footer-section{
 background-color: var(--navy-blue-modal);
 }
@@ -247,8 +246,6 @@ color: var(--cloud);
 
 
 /* Portfolio */
-
-
 .main-section .title{
 font-weight: 500;
 font-size: 20px;
