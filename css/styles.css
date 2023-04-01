@@ -65,6 +65,10 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 font-style: normal;
 }
+
+.link .items{
+color:var(--navy-blue-modal);
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
 color: var(--ocean);
@@ -97,6 +101,10 @@ color: var(--ocean);
 }
 
 /* Hero section*/
+
+.hero-section{
+background-color: var(--navy-blue-modal);
+}
 
 .hero-section .title{
 background-color: var(--grey);
@@ -135,12 +143,20 @@ color: #ffffff;
 
 /* About section */
 
-.section .title{
+.page-section .title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
+}
+
+.section-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
 }
 
 
@@ -162,7 +178,7 @@ background-color: var(--white);
 /* Team section */
 
 .features-section{
-background-color:var(--cloud) ;
+background-color:var(--white) ;
 }
 
 .features-section .subject{
@@ -232,7 +248,9 @@ color: var(--navy-blue);
 }
 
 .main-button{
-background-color: var(--cornflower);
+font-family:"Roboto", sans-serif;
+font-weight: 500;
+background-color: var(--cloud);
 color: var(--iris);
 font-size: 16px;
 line-height: 1.5;
@@ -251,4 +269,12 @@ color: var(--white);
 .main-button:active{
 background-color: var(--ocean);
 color: var(--white);
+}
+
+.maine-section .text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
 }
