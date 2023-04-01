@@ -151,6 +151,10 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
 
+.page-title {
+visibility: hidden;
+}
+
 .section-text {
 font-weight: 400;
 font-size: 16px;
@@ -197,9 +201,10 @@ color: var(--navy-blue);
 
 
 .features-section .title{
+background-color: var(--cloud);
 font-weight: 500;
 font-size: 20px;
-line-height: 1.5;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
@@ -207,7 +212,7 @@ color: var(--navy-blue);
 
 .features-section-text{
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
@@ -243,7 +248,7 @@ color: var(--cloud);
 /* Portfolio */
 
 
-.maine-section .title{
+.main-section .title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -275,10 +280,14 @@ background-color: var(--ocean);
 color: var(--white);
 }
 
-.maine-section .text{
+.main-section .text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate);
+}
+
+.main-title {
+ visibility: hidden;
 }
