@@ -173,12 +173,16 @@ color: var(--navy-blue);
 } 
 
 .content-section-item {
-background-color: var(--white);
+background-color: var(--cloud);
 }
 /* Team section */
 
 .features-section{
 background-color:var(--white) ;
+}
+
+.features-items{
+background-color: var(--white);
 }
 
 .features-section .subject{
@@ -195,7 +199,7 @@ color: var(--navy-blue);
 .features-section .title{
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
