@@ -19,6 +19,7 @@ background-color: var(--white);
 font-family: 'Roboto', sans-serif;
 color:var(--slate);
 text-decoration: none;
+text-transform: none;
 }
 
 /* Reset */
@@ -49,24 +50,28 @@ text-transform: uppercase;
 color: var(--navy-blue);
 }
 
-/* Nav */
-.section-link {
+
+
+/* Site-nav */
+.site-nav{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--ocean);
+}
 
-.nav-link:hover,
-.nav-link:focus {
+.site-nav .link:active{
 color: var(--ocean);
 }
    
-/* Header link */
+/* Auth-nav */
 
-
-.header-link{
+.auth-nav .link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -75,40 +80,28 @@ color: var(--slate);
 text-decoration: none;
 }
 
-.header-item{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--slate);
-text-decoration: none;
-}	
 
-.header-item:hover,
-.header-item:focus{
+.auth-nav .link:hover,
+.auth-nav .link:focus{
 color: var(--ocean);
 }
 
 /* Hero section*/
 
-.subject{
-	font-weight: 700;
-	font-size: 56px;
-	line-height: 1.7;
-	text-align: center;
-	letter-spacing: 0.02em;
-	color:var(--green);
+.hero-section .title{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.7;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--iris);
 }
 
-.subject-item{
-	font-weight: 700;
-	font-size: 56px;
-	line-height: 1.7;
-	text-align: center;
-	letter-spacing: 0.02em;
-	color:var(--green);
-	white-space: pre;
+.hero-title{
+white-space: pre;
 }
+
+/* Booton */
 
 .button {
 background-color: var(--iris);
@@ -124,38 +117,57 @@ background-color: var(--ocean);
 color: #ffffff;
 }
 
+/* About section */
 
-.headline {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.1;
-	text-align: center;
-	letter-spacing: 0.02em;
-	text-transform: capitalize;
-	
-									/* Team section, What are we doing- */
-
-.title {
+.section .title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--navy-blue-modal);  
+color: var(--navy-blue);
+}
+	
 
+/* What are we doing */
 
-.text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+.content-section .title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
 letter-spacing: 0.02em;
-color: var(--slate);
+text-transform: capitalize;
+color: var(--navy-blue);  
+} 
 
-}
-.item {
-	background: var(--cloud);
+/* Team section */
+
+.features-section{
+background-color:var(--cloud) ;
 }
 
-										/* Footer */
+.features-section .subject{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navy-blue);
+}
+
+
+.features-section .title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+/* Footer */
+
 .footer-logo{
 font-family: 'Raleway';
 font-weight: 800;
@@ -167,7 +179,7 @@ text-transform: uppercase;
 color: var(--iris);
 }
 
-.footer-logo-item {
+.footer-logo{
 font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
@@ -176,4 +188,40 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--cloud);
+}
+
+
+
+
+/* Portfolio */
+
+
+.maine-section .title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+.main-button{
+background-color: var(--cornflower);
+color: var(--iris);
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus{
+background-color: var(--ocean);
+color: var(--white);
+}
+
+.main-button:active{
+background-color: var(--ocean);
+color: var(--white);
 }
