@@ -176,13 +176,14 @@ text-transform: capitalize;
 color: var(--navy-blue);  
 } 
 
-.content-section-item {
-background-color: var(--cloud);
-}
+.content-section {
+background-color:var(--white);}
+
 /* Team section */
 
+
 .features-section{
-background-color:var(--white) ;
+background-color:var(--cloud) ;
 }
 
 .features-items{
@@ -201,7 +202,7 @@ color: var(--navy-blue);
 
 
 .features-section .title{
-background-color: var(--cloud);
+background-color:var(--white);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
