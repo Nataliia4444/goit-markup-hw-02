@@ -52,8 +52,7 @@ text-transform: uppercase;
 color: var(--navy-blue);
 }
 
-
-/* Site-nav */
+/* Nav */
 .header-nav {
 font-weight: 500;
 font-size: 16px;
@@ -77,7 +76,7 @@ color: var(--ocean);
    
 
 
-/* Auth-nav */
+/* Contacts*/
 .header-link {
 font-weight: 400;
 font-size: 16px;
@@ -98,7 +97,7 @@ color: var(--ocean);
 background-color: var(--navy-blue-modal);
 }
 
-.hero-section .title {
+.hero-caption {
 background-color: var(--grey);
 font-weight: 700;
 font-size: 56px;
@@ -133,15 +132,7 @@ background-color: var(--ocean);
 color: #ffffff;
 }
 
-
 /* About section */
-/* .page-section .title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--navy-blue);
-} */
 
 .section-title {
 font-weight: 500;
