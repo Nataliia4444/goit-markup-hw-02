@@ -53,12 +53,11 @@ text-transform: uppercase;
 color: var(--navy-blue);
 }
 
-/* Nav */
 
+/* Nav */
 .contacts{
 font-style: normal;
 }   
-
 
 .header-nav {
 font-weight: 500;
